@@ -101,6 +101,11 @@
  
       
     </style>
+    <script>
+        function goToContactPage() {
+            window.location.href = "contact.html";  // İletişim sayfasının URL'sini buraya yaz
+        }
+    </script>
     <header>
         <h1>AymiraShop</h1>
         <p>Alışveriş Dünyasına Hoş Geldiniz!</p>
@@ -108,7 +113,7 @@
 
     <nav>
         <a href="index.html">Anasayfa</a>
-        <a href="iletisim.html">İletişim</a>
+        <a href="iletisim.html" onclick="goToContactPage()">İletişim</a>
     </nav>
 
     <div class="category-section">
